@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="断开连接" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_check_connect_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检查连接状态" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_send_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送消息" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册消息监听" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_unregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解注册监听" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_send_message_by_messenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送消息（通过 Messenger）" />
+
+</LinearLayout>
